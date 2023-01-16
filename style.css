@@ -42,7 +42,7 @@ body{
     height: 600px;
     width: 100%;
     /* position: relative; */
-    background-image: url('images/building1.jpg');
+    background-image: url('building1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     text-transform: capitalize;
