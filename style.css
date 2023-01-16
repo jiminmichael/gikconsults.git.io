@@ -1,0 +1,328 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    color: white;
+}
+
+.container-fluid{
+    padding: 15px 45px;
+}
+
+.monserrat{
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 400;
+}
+#home .monserrat{
+    font-family: 'Montserrat' , 'sans-serif';
+    font-weight: 600;
+    font-size: 3.7rem;
+    line-height: 1.2;
+    font-stretch: semi-condensed;
+}
+.open-sans{
+    font-family: 'Open Sans' , 'sans-serif';
+    
+}
+.Cormorant-Garamond{
+    font-family: 'Cormorant Garamond','sans-serif';
+}
+.navbar .nav-link{
+    font-size: 15px;
+    /* font-family:'Times New Roman', Times, serif; */
+    color: black;
+    padding: 10px 20px !important;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* home section */
+
+#home{
+    height: 600px;
+    width: 100%;
+    /* position: relative; */
+    background-image: url('images/building1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: capitalize;
+    
+}
+#home button{
+    margin-top: 30px;
+    height: 50px;
+}
+
+.bg-dark{
+    background-color: rgba(0, 0, 0, 0.808) !important;
+}
+.home-content{
+    padding-top: 80px;
+}
+
+/* about section */
+
+#about{
+    color: black;
+    text-align: center;
+    /* height: 300px; */
+    padding: 0px;
+    margin: 0px;
+}
+#about .open-sans{
+    padding-top: 40px;
+    width: 500px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+#about img{
+    height: 400px;
+    width: 520px;
+    border-radius: 5px;
+}
+.hr-small{
+    border: 2px solid #005874 !important;
+    border-color: #005874;
+    height: 1px;
+    width: 50px;
+    font-size: 85%;
+    max-width: 50px;
+    color: #013f52 !important;
+    left: 650px;
+    position: absolute;
+    border-radius: 15%;
+}
+#about .row{
+    padding-top: 80px;
+}
+
+.about-content{
+    padding-top: 60px;
+}
+
+
+/* services section */
+
+#services{
+    margin-top: 120px;
+    padding-top: 50px;
+    color: black;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.192);
+    padding-bottom: 50px;
+}
+#services .row{
+    padding-top: 90px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 70px;
+}
+#services .btn{
+    vertical-align: bottom;
+}
+.box{
+    height: 370px;
+    width: 31%;
+    margin: 10px;
+    border-radius: 5%;
+    background-color: white;
+    /* margin-top: 100px; */
+
+}
+.a:hover{
+    border-left:14px solid #005874;
+}
+.b:hover{
+    border-left: 14px solid rgb(15, 77, 15);
+}
+.sky-blue{
+    border-left: 8px solid skyblue;
+}
+
+.light-blue{
+    border-left: 8px solid rgba(94, 182, 216, 0.788);
+}
+
+.blue{
+    border-left: 8px solid rgb(59, 181, 230);
+}
+.green{
+    border-left: 8px solid rgba(0, 128, 0, 0.795);
+}
+.light-green{
+    border-left: 8px solid rgba(20, 184, 20, 0.918);
+}
+.sky-green{
+    border-left: 8px solid rgb(42, 209, 42);
+}
+.green .btn, .sky-green .btn, .light-green .btn{
+    margin-top: 60px;
+}
+#services .btn{
+    border-bottom-right-radius: 0px;
+    border-top-left-radius:12px ;
+    border-top-right-radius:12px ;
+    border-bottom-left-radius:12px ;
+}
+#services .a .btn:hover{
+   background-color:#005874 ; 
+}
+#services .b .btn:hover{
+    background-color: rgb(15, 77, 15);
+}
+.blue .btn, .light-blue .btn{
+    margin-top: 50px;
+}
+.sky-blue .btn{
+    margin-top: -5px;
+}
+#services a{
+    text-decoration: none;
+    color: white;
+}
+.box-content{
+    padding-top: 40px;
+    /* text-align: left; */
+    
+}
+
+.box-content p{
+    padding-top: 14px;
+    padding-bottom: 55px;
+}
+.box-content .Cormorant-Garamond{
+    font-weight: 500;
+    font-size: 43px;
+}
+
+/* contact section */
+
+#contact{
+    background-color: rgba(34, 31, 31, 0.918);
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.bi{
+    font-size: 30px;
+    padding: 18px;
+
+}
+#contact .row{
+    display: flex;
+    flex-direction: row;
+}
+#contact .monserrat{
+    font-size: 25px;
+    padding-top: 20px;
+}
+#contact a{
+    text-decoration: none;
+}
+#contact p{
+    margin-bottom: 0px;
+}
+
+
+/* display on tablet screens */
+
+@media (max-width:768px) {
+
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    #home{
+        padding: 0px;
+        margin: 0px;
+        height: 450px;
+    }
+    #home .monserrat{
+        font-size: 30px;
+        line-height: 1.5;
+    }
+    #home .open-sans{
+        font-size: 15px;
+    }
+    #about{
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+    }
+    #about .open-sans, #about p{
+        text-align: center;
+        width: 100%;
+    }
+    #about img{
+        width: 70%;
+        height: 350px;
+    }
+    #about .hr-small{
+        left: 365px;
+    
+    }
+    #services .hr-small{
+        left: 350px;
+
+    }
+    .box{
+        width: 44%;
+        margin-bottom: 50px;
+        height: 320px;
+        /* margin-left: 100px; */
+    }
+    .bi{
+        padding: 8px;
+        font-size: 30px;
+    }
+    .move{
+        margin-left: 200px;
+    }
+    #services .btn{
+        visibility: hidden;
+    }
+}
+@media (max-width:425px) {
+    #about .hr-small{
+        left: 190px;
+    }
+    #about img{
+        height: 250px;
+    }
+    #services .hr-small{
+        left: 190px;
+    }
+    #services .open-sans{
+        text-align: center;
+    }
+    .box{
+        width: 80%;
+    }
+    .move{
+        margin-left: 10px;
+    }
+    #contact .monserrat{
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    
+}
+@media (max-width:375px) {
+    #about .hr-small{
+        left: 160px;
+    }
+    #home{
+        height: 500px;
+    }
+    #home .monserrat{
+        text-align: center;
+        font-size: 25px;
+    }
+    #home .open-sans{
+        font-size: 15px;
+    }
+    #services .hr-small{
+        left: 165px;
+    }
+    
+}
