@@ -308,8 +308,8 @@ body{
     
 }
 @media (max-width:375px) {
-    #about .hr-small{
-        left: 160px;
+    .hr-small{
+        visibility:hidden;
     }
     #home{
         height: 500px;
@@ -323,6 +323,9 @@ body{
     }
     #services .hr-small{
         left: 165px;
+    }
+    .box{
+        width:80%;
     }
     
 }
